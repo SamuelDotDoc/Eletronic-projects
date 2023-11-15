@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP L298N
+D L298N, Full Bridge Motor Driver, 3A Dual Full Bridge Motor Driver,, 25W 4.8  46 V, 15-Pin MULTIWATT 15
+K
+F http://www.st.com/web/en/resource/technical/document/datasheet/CD00000240.pdf
+$ENDCMP
+#
+#End Doc Library

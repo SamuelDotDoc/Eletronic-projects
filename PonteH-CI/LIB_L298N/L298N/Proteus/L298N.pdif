@@ -1,0 +1,190 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "L298N"
+   (description "L298N, Full Bridge Motor Driver, 3A Dual Full Bridge Motor Driver,, 25W 4.8  46 V, 15-Pin MULTIWATT 15")
+   (family "ANA")
+   (package "TO127P500X2020X2210-15P")
+   (attribute "Datasheet Link" "http://www.st.com/web/en/resource/technical/document/datasheet/CD00000240.pdf")
+   (attribute "Geometry.Height" "5mm")
+   (attribute "Manufacturer_Name" "STMicroelectronics")
+   (attribute "Manufacturer_Part_Number" "L298N")
+   (attribute "Mouser Part Number" "511-L298")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/L298N?qs=gr8Zi5OG3Mj6jDtNclcF9Q%3D%3D")
+   (attribute "Arrow Part Number" "L298N")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/l298n/stmicroelectronics")
+   (gate
+    (symbol "L298N")
+    (pin "CURRENT_SENSING_A" 1 IP)
+    (pin "OUTPUT_1" 2 OP)
+    (pin "OUTPUT_2" 3 OP)
+    (pin "SUPPLY_VOLTAGE_VS" 4 PP)
+    (pin "INPUT_1" 5 IP)
+    (pin "ENABLE_A" 6 IP)
+    (pin "INPUT_2" 7 IP)
+    (pin "GND" 8 PP)
+    (pin "LOGIC_SUPPLY_VOLTAGE_VSS" 9 PP)
+    (pin "INPUT_3" 10 IP)
+    (pin "ENABLE_B" 11 IP)
+    (pin "INPUT_4" 12 IP)
+    (pin "OUTPUT_3" 13 OP)
+    (pin "OUTPUT_4" 14 OP)
+    (pin "CURRENT_SENSING_B" 15 IP)
+   )
+  )
+  (symbol "L298N"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 2600 100) (pt 2600 -800) (pt 200 -800) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -400) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -500) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -600) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -700) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 2800 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 2800 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 2800 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 2800 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 2800 -400) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 2800 -500) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 2800 -600) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "TO127P500X2020X2210-15P"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -1.46 10.63)
+      (pt 19.24 10.63)
+      (pt 19.24 -1.098)
+      (pt -1.46 -1.098)
+      (pt -1.46 10.63))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.21 10.38)
+      (pt 18.99 10.38)
+      (pt 18.99 5.38)
+      (pt -1.21 5.38)
+      (pt -1.21 10.38))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -1.21 9.745)
+      (pt -0.575 10.38))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 18.99 5.38)
+      (pt 18.99 10.38)
+      (pt -1.21 10.38)
+      (pt -1.21 0))))
+   (leg 1 (pt 0 0) (padstack 1))
+   (leg 3 (pt 2.54 0) (padstack 0))
+   (leg 5 (pt 5.08 0) (padstack 0))
+   (leg 7 (pt 7.62 0) (padstack 0))
+   (leg 9 (pt 10.16 0) (padstack 0))
+   (leg 11 (pt 12.7 0) (padstack 0))
+   (leg 13 (pt 15.24 0) (padstack 0))
+   (leg 15 (pt 17.78 0) (padstack 0))
+   (leg 2 (pt 1.27 5.53) (padstack 0))
+   (leg 4 (pt 3.81 5.53) (padstack 0))
+   (leg 6 (pt 6.35 5.53) (padstack 0))
+   (leg 8 (pt 8.89 5.53) (padstack 0))
+   (leg 10 (pt 11.43 5.53) (padstack 0))
+   (leg 12 (pt 13.97 5.53) (padstack 0))
+   (leg 14 (pt 16.51 5.53) (padstack 0))
+   (padstack 0
+    (hole 1.13)
+    (plated true)
+    (pad (layer TCOP) (round 1.695))
+    (pad (layer INNER) (round 1.695))
+    (pad (layer BCOP) (round 1.695))
+   )
+   (padstack 1
+    (hole 1.13)
+    (plated true)
+    (pad (layer TCOP) (square 1.695))
+    (pad (layer INNER) (round 1.695))
+    (pad (layer BCOP) (square 1.695))
+   )
+   (model "L298N.stp"
+    (euler 180 0 0)
+    (offset 8.890000343322754 9.3100004196167 12.600000381469727)
+   )
+  )
+ )
+)

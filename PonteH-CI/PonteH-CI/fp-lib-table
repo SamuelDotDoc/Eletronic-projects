@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name L298N)(type Legacy)(uri E:/KiCad/Projects/PonteH-CI/LIB_L298N/L298N/KiCad/L298N.mod)(options "")(descr ""))
+)
